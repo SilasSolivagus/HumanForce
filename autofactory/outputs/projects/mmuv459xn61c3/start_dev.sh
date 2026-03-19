@@ -1,0 +1,44 @@
+#!/bin/bash
+# 开发启动脚本 - 由 AutoFactory 生成
+
+cd "/Users/silas/.openclaw/workspace/autofactory/outputs/projects/mmuv459xn61c3"
+
+# 使用 Codex 进行开发
+# 注意：需要手动运行以下命令
+echo "请在项目目录运行:"
+echo "  codex exec --full-auto '$(echo "你是一个专业的软件开发者。请根据以下 PRD 开发一个完整的项目。
+
+## 项目概述
+- **名称**: Add CLI tool for batch image processing
+- **技术栈**: TypeScript
+- **类型**: 单文件/模块化CLI架构
+
+## 工作目录
+/Users/silas/.openclaw/workspace/autofactory/outputs/projects/mmuv459xn61c3
+
+## 开发步骤
+
+1. **初始化项目**
+   - 按照 DEV_INSTRUCTIONS.md 中的步骤初始化项目
+   - 设置好所有配置文件
+
+2. **实现核心功能**
+   - 核心功能: 实现主要业务逻辑
+   - 用户界面: 提供直观的用户界面
+
+3. **编写测试**
+   - 为每个主要功能编写单元测试
+   - 确保测试覆盖率 > 60%
+
+4. **完善项目**
+   - 添加 README.md
+   - 添加必要的文档
+   - 确保代码通过 lint 检查
+
+## 要求
+- 代码质量高，结构清晰
+- 遵循 PRD 中的技术设计
+- 所有 P0 功能必须完成
+- 包含基础测试
+
+开始开发吧！"'"

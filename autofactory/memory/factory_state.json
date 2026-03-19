@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "created_at": "2026-03-17T17:03:51.211Z",
+  "runs": [
+    {
+      "id": "mmuv3cml",
+      "started_at": "2026-03-17T17:03:51.213Z",
+      "mode": "full",
+      "stages": {
+        "scout": {
+          "opportunities_found": 0,
+          "opportunities": []
+        }
+      },
+      "status": "paused_no_opportunities"
+    },
+    {
+      "id": "mmuv3cml",
+      "started_at": "2026-03-17T17:03:51.213Z",
+      "mode": "full",
+      "stages": {
+        "scout": {
+          "opportunities_found": 0,
+          "opportunities": []
+        }
+      },
+      "status": "paused_no_opportunities"
+    }
+  ],
+  "stats": {
+    "total_opportunities": 0,
+    "total_prds": 0,
+    "total_projects": 0,
+    "total_deployments": 0
+  }
+}

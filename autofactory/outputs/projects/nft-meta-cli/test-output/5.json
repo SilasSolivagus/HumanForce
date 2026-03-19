@@ -1,0 +1,27 @@
+{
+  "name": "Crypto Ape #5",
+  "description": "Zombie ape with laser eyes",
+  "image": "5.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Zombie"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Laser"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Chain"
+    }
+  ]
+}

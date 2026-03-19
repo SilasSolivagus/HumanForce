@@ -1,0 +1,27 @@
+{
+  "name": "Crypto Ape #3",
+  "description": "A unique crypto ape",
+  "image": "3.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robot"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Yellow Sleepy"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Open"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Earrings"
+    }
+  ]
+}

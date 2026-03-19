@@ -1,0 +1,113 @@
+# AutoFactory 配置文件
+
+# GitHub 配置
+github:
+  # 用于搜索热门仓库和 issues
+  trending_check_interval: 3600  # 每小时检查一次
+  good_first_issue_labels:
+    - "good first issue"
+    - "help wanted"
+    - "beginner friendly"
+  
+  # 关注的技术栈（用于过滤需求）
+  tech_stacks:
+    - "typescript"
+    - "python"
+    - "rust"
+    - "go"
+    - "react"
+    - "vue"
+    - "nextjs"
+    
+  # 最小 star 数（筛选有价值的项目）
+  min_stars: 100
+
+# Reddit 配置
+reddit:
+  enabled: true
+  subreddits:
+    - "webdev"
+    - "programming"
+    - "SideProject"
+    - "web_design"
+    - "javascript"
+    - "Python"
+  check_interval: 1800  # 每30分钟
+  
+# Product Hunt 配置
+producthunt:
+  enabled: true
+  categories:
+    - "developer tools"
+    - "productivity"
+    - "web app"
+  check_interval: 86400  # 每天
+
+# Hacker News 配置
+hackernews:
+  enabled: true
+  sources:
+    - "show"
+    - "ask"
+    - "jobs"
+  check_interval: 3600
+
+# 需求评估配置
+scoring:
+  # 需求评分权重
+  weights:
+    community_interest: 0.3    # 社区关注度
+    implementation_scope: 0.25  # 实现复杂度（越小越好）
+    market_gap: 0.25           # 市场空白度
+    tech_fit: 0.2              # 技术栈匹配度
+  
+  # 自动进入开发流水线的最低分数
+  min_score_threshold: 7.0
+
+# 开发配置
+development:
+  # 每个项目的最大开发时间（分钟）
+  max_dev_time: 120
+  
+  # 技术栈偏好（按优先级）
+  preferred_stacks:
+    - name: "web-fullstack"
+      frontend: "nextjs"
+      backend: "nodejs"
+      database: "sqlite"
+    - name: "cli-tool"
+      language: "rust"
+    - name: "automation"
+      language: "python"
+  
+  # 代码质量标准
+  min_test_coverage: 60
+  require_linting: true
+
+# 部署配置
+deployment:
+  # 部署目标
+  targets:
+    - "vercel"      # 前端项目
+    - "railway"     # 全栈项目
+    - "pypi"        # Python 包
+    - "npm"         # Node 包
+    - "docker"      # 容器化服务
+  
+  # 自动部署条件
+  auto_deploy_threshold: 8.5  # 质量分数达到此值自动部署
+
+# 通知配置
+notifications:
+  telegram:
+    enabled: true
+    # 频道ID会在运行时从环境变量读取
+    channel_id: "${TELEGRAM_CHANNEL_ID}"
+  
+  # 重要事件通知
+  notify_on:
+    - new_opportunity_found    # 发现新机会
+    - prd_completed           # PRD完成
+    - dev_completed           # 开发完成
+    - deployment_success      # 部署成功
+    - failure                 # 任何失败

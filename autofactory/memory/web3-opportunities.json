@@ -1,0 +1,198 @@
+[
+  {
+    "source": "github",
+    "type": "web3_repo",
+    "title": "foundry-rs/foundry",
+    "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
+    "url": "https://github.com/foundry-rs/foundry",
+    "stars": 34000,
+    "language": "Rust",
+    "web3_categories": ["smart-contract", "infra"],
+    "topics": ["ethereum", "solidity", "testing", "deployment"],
+    "scores": {
+      "community_interest": 10,
+      "implementation_scope": 4,
+      "market_gap": 7,
+      "web3_fit": 10,
+      "innovation": 8
+    },
+    "total_score": 8.1,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_repo",
+    "title": "wagmi-dev/wagmi",
+    "description": "React Hooks for Ethereum, built on viem. TypeScript ready, test suite running, and production grade.",
+    "url": "https://github.com/wagmi-dev/wagmi",
+    "stars": 9500,
+    "language": "TypeScript",
+    "web3_categories": ["wallet", "infra"],
+    "topics": ["react", "ethereum", "hooks", "typescript"],
+    "scores": {
+      "community_interest": 8.5,
+      "implementation_scope": 6,
+      "market_gap": 7.5,
+      "web3_fit": 9,
+      "innovation": 7
+    },
+    "total_score": 7.8,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_issue",
+    "title": "Add support for EIP-6963 (Multi-Injection Provider Discovery)",
+    "description": "Implement EIP-6963 to allow dapps to discover multiple injected wallet providers. This improves the wallet connection UX.",
+    "url": "https://github.com/wagmi-dev/wagmi/issues/xyz",
+    "repo": "wagmi-dev/wagmi",
+    "labels": ["enhancement", "good first issue"],
+    "web3_categories": ["wallet", "infra"],
+    "scores": {
+      "community_interest": 7,
+      "implementation_scope": 8,
+      "market_gap": 8.5,
+      "web3_fit": 9.5,
+      "innovation": 8
+    },
+    "total_score": 8.0,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_repo",
+    "title": "OpenZeppelin/openzeppelin-contracts",
+    "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
+    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "stars": 25000,
+    "language": "Solidity",
+    "web3_categories": ["smart-contract", "security"],
+    "topics": ["solidity", "security", "ethereum", "standards"],
+    "scores": {
+      "community_interest": 10,
+      "implementation_scope": 3,
+      "market_gap": 6,
+      "web3_fit": 10,
+      "innovation": 6
+    },
+    "total_score": 7.5,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_issue",
+    "title": "Create CLI tool for batch NFT metadata generation",
+    "description": "Build a CLI tool that can batch generate NFT metadata JSON files from a CSV or spreadsheet. Support for IPFS pinning and rarity trait calculation.",
+    "url": "https://github.com/example/nft-tools/issues/123",
+    "repo": "example/nft-tools",
+    "labels": ["good first issue", "enhancement"],
+    "web3_categories": ["nft", "infra"],
+    "scores": {
+      "community_interest": 6.5,
+      "implementation_scope": 9,
+      "market_gap": 8,
+      "web3_fit": 8.5,
+      "innovation": 7
+    },
+    "total_score": 7.6,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_repo",
+    "title": "Uniswap/v4-core",
+    "description": "🦄 🦄 🦄 🦄 Core smart contracts of Uniswap v4, a new automated market maker protocol with hooks and singleton architecture.",
+    "url": "https://github.com/Uniswap/v4-core",
+    "stars": 5800,
+    "language": "Solidity",
+    "web3_categories": ["defi", "smart-contract"],
+    "topics": ["amm", "dex", "ethereum", "solidity"],
+    "scores": {
+      "community_interest": 7.5,
+      "implementation_scope": 3,
+      "market_gap": 8,
+      "web3_fit": 10,
+      "innovation": 9
+    },
+    "total_score": 7.4,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_issue",
+    "title": "Add DeFi portfolio analytics dashboard",
+    "description": "Build a dashboard to track DeFi positions across multiple protocols (Aave, Compound, Uniswap). Show P&L, impermanent loss, and yield farming rewards.",
+    "url": "https://github.com/example/defi-dashboard/issues/456",
+    "repo": "example/defi-dashboard",
+    "labels": ["feature", "good first issue"],
+    "web3_categories": ["defi", "analytics"],
+    "scores": {
+      "community_interest": 8,
+      "implementation_scope": 7,
+      "market_gap": 8.5,
+      "web3_fit": 9,
+      "innovation": 7.5
+    },
+    "total_score": 8.0,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_repo",
+    "title": "rainbow-me/rainbowkit",
+    "description": "The best way to connect a wallet. 🌈 Built on top of wagmi and viem.",
+    "url": "https://github.com/rainbow-me/rainbowkit",
+    "stars": 9200,
+    "language": "TypeScript",
+    "web3_categories": ["wallet", "infra"],
+    "topics": ["react", "ethereum", "wallet", "web3"],
+    "scores": {
+      "community_interest": 8,
+      "implementation_scope": 5,
+      "market_gap": 7,
+      "web3_fit": 9,
+      "innovation": 7
+    },
+    "total_score": 7.4,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_issue",
+    "title": "Implement MEV protection for DEX aggregator",
+    "description": "Add MEV protection using Flashbots or similar. Protect users from sandwich attacks when swapping tokens.",
+    "url": "https://github.com/example/dex-aggregator/issues/789",
+    "repo": "example/dex-aggregator",
+    "labels": ["security", "enhancement"],
+    "web3_categories": ["defi", "security"],
+    "scores": {
+      "community_interest": 9,
+      "implementation_scope": 4,
+      "market_gap": 9,
+      "web3_fit": 9.5,
+      "innovation": 8
+    },
+    "total_score": 7.9,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  },
+  {
+    "source": "github",
+    "type": "web3_repo",
+    "title": "ethers-io/ethers.js",
+    "description": "Complete Ethereum library and wallet implementation in JavaScript/TypeScript.",
+    "url": "https://github.com/ethers-io/ethers.js",
+    "stars": 8000,
+    "language": "TypeScript",
+    "web3_categories": ["wallet", "infra"],
+    "topics": ["ethereum", "javascript", "typescript", "blockchain"],
+    "scores": {
+      "community_interest": 8,
+      "implementation_scope": 4,
+      "market_gap": 6,
+      "web3_fit": 10,
+      "innovation": 6
+    },
+    "total_score": 7.2,
+    "assessed_at": "2026-03-18T01:10:00Z"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "Crypto Ape #4",
+  "description": "Common but cool ape",
+  "image": "4.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Blue Normal"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "None"
+    }
+  ]
+}

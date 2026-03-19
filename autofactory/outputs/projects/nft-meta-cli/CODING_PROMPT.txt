@@ -1,0 +1,89 @@
+你是一个专业的 CLI 工具开发者。请开发一个 NFT 元数据批量生成器。
+
+## 项目信息
+- **名称**: nft-meta-cli
+- **技术栈**: TypeScript + Node.js
+- **类型**: CLI 工具
+
+## 核心功能 (必须实现)
+
+### 1. generate 命令
+```bash
+nft-meta generate --input traits.csv --output ./metadata/
+```
+- 读取 CSV 文件
+- 解析每一行为一个 NFT 的元数据
+- 生成符合 ERC721 标准的 JSON 文件
+- 文件名格式: 1.json, 2.json, 3.json...
+
+### 2. rarity 命令 (稀有度计算)
+```bash
+nft-meta rarity --input ./metadata/ --output rarity.json
+```
+- 读取所有生成的元数据
+- 统计每个属性的出现频率
+- 计算每个 NFT 的稀有度分数
+- 输出排名
+
+### 3. validate 命令
+```bash
+nft-meta validate --input ./metadata/
+```
+- 验证 JSON 格式是否正确
+- 检查必填字段 (name, description, image, attributes)
+
+## 数据结构
+
+### 输入 CSV 格式:
+```csv
+token_id,name,description,image,Background,Body,Eyes,Mouth
+1,NFT #1,Description,image.png,Blue,Normal,Happy,Smile
+```
+
+### 输出 JSON 格式:
+```json
+{
+  "name": "NFT #1",
+  "description": "Description",
+  "image": "image.png",
+  "attributes": [
+    { "trait_type": "Background", "value": "Blue" },
+    { "trait_type": "Body", "value": "Normal" }
+  ]
+}
+```
+
+## 项目结构
+```
+nft-meta-cli/
+├── src/
+│   ├── commands/
+│   │   ├── generate.ts
+│   │   ├── rarity.ts
+│   │   └── validate.ts
+│   ├── utils/
+│   │   ├── csvParser.ts
+│   │   ├── rarityCalculator.ts
+│   │   └── validator.ts
+│   └── index.ts
+├── tests/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## 依赖
+- commander (CLI 框架)
+- csv-parser (CSV 解析)
+- fs-extra (文件操作)
+- chalk (彩色输出)
+- jest (测试)
+
+## 要求
+1. 代码类型完整 (TypeScript)
+2. 有完整的错误处理
+3. 包含单元测试
+4. 有良好的 CLI 帮助信息
+5. README 完整
+
+开始开发吧！

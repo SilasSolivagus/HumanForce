@@ -1,0 +1,27 @@
+{
+  "name": "Crypto Ape #1",
+  "description": "A rare crypto ape from the collection",
+  "image": "1.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Normal"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red Laser"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grin"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Chain"
+    }
+  ]
+}

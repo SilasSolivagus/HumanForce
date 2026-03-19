@@ -1,0 +1,53 @@
+[
+  {
+    "source": "github",
+    "type": "trending_repo",
+    "title": "browser-use",
+    "description": "Make websites accessible for AI agents. Automate tasks online with ease. A Python library that enables AI agents to interact with web browsers.",
+    "url": "https://github.com/browser-use/browser-use",
+    "stars": 28500,
+    "language": "Python",
+    "scores": {
+      "community_interest": 10,
+      "implementation_scope": 5,
+      "market_gap": 7,
+      "tech_fit": 9
+    },
+    "total_score": 8.1,
+    "assessed_at": "2026-03-18T01:00:00Z"
+  },
+  {
+    "source": "github",
+    "type": "trending_repo",
+    "title": "cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs with advanced tools.",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "stars": 22000,
+    "language": "TypeScript",
+    "scores": {
+      "community_interest": 10,
+      "implementation_scope": 5,
+      "market_gap": 7,
+      "tech_fit": 9
+    },
+    "total_score": 8.1,
+    "assessed_at": "2026-03-18T01:00:00Z"
+  },
+  {
+    "source": "github",
+    "type": "good_first_issue",
+    "title": "Add CLI tool for batch image processing",
+    "description": "Create a command-line tool that can batch process images (resize, convert format, add watermark). Should support common formats like JPG, PNG, WebP.",
+    "url": "https://github.com/example/image-tools/issues/42",
+    "repo": "example/image-tools",
+    "labels": ["good first issue", "enhancement"],
+    "scores": {
+      "community_interest": 6,
+      "implementation_scope": 9,
+      "market_gap": 8,
+      "tech_fit": 8
+    },
+    "total_score": 7.5,
+    "assessed_at": "2026-03-18T01:00:00Z"
+  }
+]

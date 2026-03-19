@@ -1,0 +1,153 @@
+# 开发指令: Add CLI tool for batch image processing
+
+## 项目信息
+- **ID**: mmuv459xn61c3
+- **目录**: /Users/silas/.openclaw/workspace/autofactory/outputs/projects/mmuv459xn61c3
+- **技术栈**: TypeScript / Node.js / oclif/commander
+- **复杂度**: 5-10 天
+
+## 初始化步骤
+
+### 1. 项目初始化
+```bash
+cd /Users/silas/.openclaw/workspace/autofactory/outputs/projects/mmuv459xn61c3
+
+# 初始化 Git
+git init
+
+# 创建基础目录结构
+mkdir -p src tests docs
+
+# 创建 .gitignore
+cat > .gitignore << 'EOF'
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.local
+.DS_Store
+coverage/
+EOF
+```
+
+### 2. 技术栈配置
+
+```bash
+# 初始化 package.json
+npm init -y
+
+# 安装 TypeScript
+npm install -D typescript @types/node ts-node
+
+# 初始化 TypeScript 配置
+npx tsc --init
+
+# 安装框架和工具
+npm install express
+npm install -D jest @types/jest eslint prettier
+
+# 配置 ESLint
+cat > .eslintrc.json << 'EOF'
+{
+  "extends": ["eslint:recommended", "@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"]
+}
+EOF
+```
+
+### 3. 实现计划
+
+
+#### 阶段 1: 基础架构 (1-2天)
+- [ ] 项目初始化
+- [ ] 目录结构
+- [ ] 基础配置
+
+
+#### 阶段 2: 核心功能 (2-3天)
+- [ ] 实现主要业务逻辑
+- [ ] 编写单元测试
+
+
+#### 阶段 3: 用户界面 (1-2天)
+- [ ] CLI命令/GUI/API
+- [ ] 交互优化
+
+
+#### 阶段 4: 完善和发布 (1天)
+- [ ] 文档编写
+- [ ] 发布准备
+
+
+## 功能需求实现
+
+
+### F1: 核心功能 (P0)
+
+**描述**: 实现主要业务逻辑
+
+**验收标准**:
+- [ ] 用户可以使用核心功能完成主要任务
+- [ ] 功能稳定，无明显bug
+
+
+### F2: 用户界面 (P0)
+
+**描述**: 提供直观的用户界面
+
+**验收标准**:
+- [ ] 界面清晰易懂
+- [ ] 响应式设计（如适用）
+
+
+### F3: 配置选项 (P1)
+
+**描述**: 允许用户自定义行为
+
+**验收标准**:
+- [ ] 提供合理的默认配置
+- [ ] 配置简单明了
+
+
+### F4: 命令行参数 (P1)
+
+**描述**: 支持丰富的命令行参数
+
+**验收标准**:
+- [ ] 支持 --help
+- [ ] 参数解析正确
+
+
+## 代码规范
+
+1. **命名规范**: 使用有意义的变量名和函数名
+2. **注释**: 复杂逻辑需要注释说明
+3. **错误处理**: 所有异步操作需要 try/catch
+4. **测试**: 每个功能模块需要有单元测试
+5. **类型**: 使用 TypeScript 时确保类型完整
+
+## 提交规范
+
+```
+feat: 新功能
+fix: 修复bug
+docs: 文档更新
+style: 代码格式调整
+refactor: 重构
+test: 测试相关
+chore: 构建/工具相关
+```
+
+## 成功标准
+
+- [ ] 所有 P0 功能完成
+- [ ] 单元测试覆盖率 > 60%
+- [ ] 代码通过 Lint 检查
+- [ ] 手动测试通过
+
+---
+
+**开始开发**:
+使用 coding-agent 在此目录执行开发任务。
